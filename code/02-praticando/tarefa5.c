@@ -7,7 +7,24 @@
 #include <stdio.h>
 
 // TODO: declare função manhattan aqui. Veja abaixo como ela será usada
+float manhattan(int x1, int y1, int x2, int y2) {
+    double absX;
+    double absY;
 
+    absX = x1 - x2;
+    absY = y1 - y2;
+
+    if (absX < 0) {
+        absX = absX * -1;
+    } 
+
+    if (absY < 0) {
+        absY = absY * -1;
+    }
+
+    return absX + absY;
+    
+}
 
 int main() {
     

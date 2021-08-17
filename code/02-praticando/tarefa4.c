@@ -7,7 +7,14 @@
 #include <stdio.h>
 
 // TODO: declare função modulo aqui. Veja abaixo como ela será usada
+int modulo(int numero) {
 
+    if (numero < 0) {
+        numero = numero * -1;
+    }
+
+    return numero;
+}   
 
 int main() {
     
