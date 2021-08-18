@@ -1,0 +1,4 @@
+Digite dois numeros (0 0 -> quit):O primeiro numero nao eh um multiplo do segundo.
+Digite dois numeros (0 0 -> quit):Primeiro numero 3 multiplo de 3
+Digite dois numeros (0 0 -> quit):
+Programa finalizado com sucesso.

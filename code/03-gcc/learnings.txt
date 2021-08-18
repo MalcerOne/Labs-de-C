@@ -1,0 +1,6 @@
+gcc -Wall -pedantic -std=gnu99 -Og -o tarefa3 tarefa3.c
+gcc -Og -Wall tarefa3.c -o tarefa3-sem-make -lm -lsystemd
+
+./tarefa3 < autoExec.txt > saida3.txt
+./tarefa3 < autoExec.txt - entrada 
+./tarefa3  > saida3.txt - saida

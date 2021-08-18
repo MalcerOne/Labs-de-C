@@ -1,0 +1,6 @@
+Digite dois numeros (0 0 -> quit):O primeiro numero nao eh um multiplo do segundo.
+Digite dois numeros (0 0 -> quit):Primeiro numero 4 multiplo de 2
+Digite dois numeros (0 0 -> quit):Primeiro numero 6 multiplo de 3
+Digite dois numeros (0 0 -> quit):Erro! Numero nao pode ser zero.
+Digite dois numeros (0 0 -> quit):
+Programa finalizado com sucesso.
