@@ -7,10 +7,25 @@
 #include <stdio.h>
 
 /* TODO: implemente sua função soma aqui */
+double soma(double arr[], int n){
+    double s = 0;
 
+    if (n > 1){
+        for (int i = 0; i < n; i++){
+            s += arr[i];
+        }
+    }   
+}
 
 int main() {
     double arr1[] = {1, 2, 3, 4, 5, 6};
+
+    // question3 { ?
+    //     int arr2[6] = cte;
+    //     int arr2[6] = {cte};
+    //     int arr2[] = {0, 2, 3, 2, 5};
+    // }
+
     assertEquals("Chamada simples", soma(arr1, 6), 21);
     assertEquals("Subvetor", soma(arr1, 2), 3.0);
     assertEquals("Subvetor II", soma(arr1+2, 3), 12.0);

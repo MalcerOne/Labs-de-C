@@ -5,9 +5,22 @@
 
 
 #include <stdio.h>
+#define STRING_LEN 100
 
 /* TODO: implemente sua função conta_1 aqui */
-
+int conta_1(char str[100]){
+    int s = 0;
+    
+    for (int i = 0; i < STRING_LEN; i++){
+        if (str[i] == '\0'){
+            return s;
+        } else if (str[i] == '1'){
+            s += 1;
+        }
+    }
+    
+    return 0;
+}
 
 int main() {
     

@@ -5,14 +5,19 @@
 
 
 #include <stdio.h>
+#define MAX_VALUE  5
 
 int main(int argc, char *argv[]) {
 
     /* TODO: conserte o código abaixo */
-	long vetor[5];
-	int i;
+	long vetor[MAX_VALUE];
+
+	for (int i = 0; i < MAX_VALUE; i++){
+		scanf("%ld", &vetor[i]);
+	}
 	
-	for(i = 0; i <= 5; i++) {
+	
+	for(int i = 0; i < MAX_VALUE; i++) {
 		if (vetor[i] % 2 == 0) {
 			printf("Par! ");
 		}
